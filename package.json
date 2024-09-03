@@ -7,7 +7,7 @@
   },
   "scripts": {
     "format-oas": "npx openapi-format open-api/test-oas3.yaml -o open-api/test-oas3.yaml",
-    "gen-html": "npx redocly build-docs -o open-api/test-oas3.html",
+    "gen-html": "npx redocly build-docs -o open-api/html/index.html",
     "lint-oas": "npx spectral lint open-api/test-oas3.yaml --ruleset open-api/.spectral.yaml",
     "start-mock": "npx prism mock open-api/test-oas3.yaml"
   },

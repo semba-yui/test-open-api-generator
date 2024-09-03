@@ -59,12 +59,12 @@ npm run gen-html
 
 ```shell
 > test-open-api-generator@1.0.0 gen-html
-> npx redocly build-docs -o open-api/test-oas3.html
+> npx redocly build-docs -o open-api/html/index.html
 
 Found redocly.yaml and using theme.openapi options
 Prerendering docs
 
-🎉 bundled successfully in: open-api/test-oas3.html (216 KiB) [⏱ 1ms].
+🎉 bundled successfully in: open-api/html/index.html (216 KiB) [⏱ 1ms].
 ```
 
 ## OAS Mock Server

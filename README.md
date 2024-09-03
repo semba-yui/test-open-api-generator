@@ -24,5 +24,3 @@ OpenAPI Generator を試すだけのリポジトリ
 ├── README.md
 └── redocly.yaml
 ```
-
-
