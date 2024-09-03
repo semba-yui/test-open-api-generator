@@ -1,0 +1,23 @@
+{
+  "name": "test-open-api-generator",
+  "version": "1.0.0",
+  "description": "OpenAPI Generator を試すだけのリポジトリ",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "format-oas": "npx openapi-format open-api/test-oas3.yaml -o open-api/test-oas3.yaml",
+    "gen-html": "npx redocly build-docs -o open-api/test-oas3.html",
+    "lint-oas": "npx spectral lint open-api/test-oas3.yaml --ruleset open-api/.spectral.yaml",
+    "start-mock": "npx prism mock open-api/test-oas3.yaml"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.5",
+    "@redocly/cli": "^1.22.1",
+    "@stoplight/prism-cli": "^5.9.0",
+    "@stoplight/spectral-cli": "^6.11.1",
+    "openapi-format": "^1.22.3"
+  },
+  "author": "semba-yui",
+  "license": "MIT"
+}

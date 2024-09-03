@@ -1,0 +1,3 @@
+apis:
+  test-api:
+    root: open-api/test-oas3.yaml
