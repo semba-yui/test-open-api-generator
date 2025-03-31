@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.13.5",
-    "@redocly/cli": "^1.22.1",
+    "@redocly/cli": "^1.34.1",
     "@stoplight/prism-cli": "^5.12.0",
     "@stoplight/spectral-cli": "^6.11.1",
     "openapi-format": "^1.22.3"
